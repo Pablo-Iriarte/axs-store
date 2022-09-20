@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@300&family=Work+Sans:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+@font-face {
+    font-family: "docktrin";
+    src: url(font/docktrin/docktrin.ttf);
+}
+
+
+
+
+body {
+    background-color: #355764;
+}
+
+a {
+    text-decoration: none;
+    margin: 0%;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5A8F7B;
+    padding: 0 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;    
+    width: 33.3%;
+    height: 90px;
+}
+
+.logo .inicio{
+    width: 20% ;
+    display: flex;
+    margin: 0;
+}
+
+.logo .icono-cabezera{
+    width: 100%;
+    height: auto;
+}
+
+.busqueda {
+    width: 40%;
+}
+.busqueda input{
+    width: 80%;    
+    height: 30px;
+    
+}
+.boton{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 12%;
+    height: 25px;
+    background-color: rgb(23, 23, 24);
+    text-align: center;
+    color: white;
+}
+.busqueda :hover{
+    background: #FFEA11;
+    color: #030303;
+    
+}
+
+.carrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: auto;
+    
+}
+
+.icono-cabezera{
+    width: 100px;
+    height: auto;
+    
+}
+.carrito:hover{
+    background-color: #FFEA11;
+    border-radius: 50%;
+}
+
+.ban {
+    background-color: #FFEA11;
+    color: rgb(0, 0, 0);
+    position:sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.ban h3 {
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+/*Menu desplegable*/
+.menu {
+    background-color: #81CACF;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.menu-horizontal{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 80%;
+    color: #355764;
+}
+
+.menu-horizontal li a{
+    color: #000000;
+    font-size: 21px;
+}
+.menu-horizontal li a:hover{
+    color: #81CACF;
+}
+.menu-horizontal li:hover{
+    background-color: #0a141d;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    width: 200px;
+    list-style: none;
+    background-color: rgb(10, 20, 29,.6);
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+    z-index: 15;
+}
+.menu-vertical li a{
+    color: aliceblue;
+}
+/*selecion pagina principal*/
+.seleccion {
+    display: flex;
+    height: 90%;
+}
+
+.seleccion .img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.seleccion .s-hombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seleccion .s-hombre a {
+    display: flex;
+    position: absolute;
+    height: 25px;
+
+}
+
+.seleccion .s-hombre a button {
+    width: 150px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 80px;
+    background-color: #030303;
+    border: none;
+}
+.seleccion .s-hombre a button:hover{
+    background-color: #FFEA11;
+    color: #0a141d;
+    width: 250px;
+    letter-spacing: 6px;
+    transition: 0.5s;
+}
+/*Reel de zapatillas en promocion*/
+.promocion {
+    display: contents;
+    justify-content: center;
+}
+
+.promocion .promocion-titulo {
+    background-color: #5A8F7B;
+    text-align: center;
+    padding: 28px 15px;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: 300;
+}
+
+.promocion .carrusel {
+    background-color: #5A8F7B;
+    border: #000000 solid 1px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.promocion .carrusel .img-promo{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    border: #4f1cc7 solid 1px;
+   
+}
+
+.promocion .carrusel a {
+    padding: 10%;
+    display:inline;
+    color: rgb(93, 166, 226);
+    font-size: 20px;
+}
+.promocion .carrusel .img-promo a p{
+    text-align: center;
+    height: 50px;
+}
+
+
+.promocion .carrusel .img-promo img {
+
+    width: 80%;
+    border-radius: 50%;
+    border: #c71c1c solid 1px;
+}
+
+.contenedor-redes {
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales {
+    margin: 15px 5%;
+    width: 60%;
+    height: 600px;
+    position: relative;
+}
+
+.contenedor-redes .redes-sociales p {
+    text-align: center;
+    font-size: 26px;
+    color: rgb(110, 110, 21);
+    font-weight: 300;
+}
+
+.redes-sociales div img {
+    width: 200px;
+    height: auto;
+    border-radius: 25%;
+}
+
+.red-1 {
+    position: absolute;
+
+}
+
+.red-2 {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+
+.red-3 {
+    position: absolute;
+    bottom: 0%;
+}
+
+.red-4 {
+    position: absolute;
+    right: 0%;
+}
+
+footer {
+    position: relative;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.pie-pagina {
+    width: 100%;
+    background-color: #0a141d;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 40px 0px;
+}
+
+.pie-pagina .grupo-1 .box {
+    padding-left: 50px;
+    border-left: solid 1px wheat;
+    color: rgb(69, 105, 136);
+    list-style: none;
+
+}
+
+
+/*Logo axs*/
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pie-pagina .grupo-1 .box img {
+    width: 50px;
+    background-color: aliceblue;
+    margin: 50px 40px;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+    width: 150px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    color: aliceblue;
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box input {
+    align-items: center;
+    width: 220px;
+    border-color: white;
+}
+
+.pie-pagina .grupo-1 small {
+    color: white;
+}
+
+/*PRODUCTOS*/
+.productos .contenedor-productos img {
+    width: 200px;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.filtro {
+    width: 20%;
+    height: 200px;
+    background-color: rgb(128, 128, 128, .6);
+    margin-right: 20px;
+    padding-top: 80px;
+}
+
+.filtro .h-m-n {
+    display: flex;
+    justify-content: space-around;
+}
+
+.categorias .filtro {
+    background-color: rgb(73, 49, 49, .3);
+}
+
+.contenedor-productos {
+    width: 80%;
+    background-color: rgb(54, 161, 147, .3);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px
+}
+
+.filtro .categorias li {
+    padding: 10px 0px;
+    width: 99%;
+    list-style: none;
+    border: #0a141d solid 1px;
+}
+
+.nosotros {
+    display: flex;
+    justify-items: auto;
+}
+
+.nosotros p {
+    padding: 15px;
+    font-size: 25px;
+    text-align: left;
+}
+
+.nosotros img {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+
+.contacto {
+    width: 80%;
+    margin: 0 15%;
+
+}
+
+.contacto input {
+    width: 100px;
+    height: 20px;
+}
+
+h1 {
+    margin: 25px;
+    text-align: end;
+    font-size: 30px;
+}
+
+img {
+    width: 500px;
+}
+
+.grid-item {
+    border: solid 2px black;
+    background-color: azure;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    border: solid saddlebrown 4px;
+    width: 80%;
+    margin: 0 auto;
+    /*habilitar filas*/
+    /*grid-template-rows: 1fr 2fr 1fr ;*/
+    /*habilitar columnas*/
+   /* grid-template-columns: 2fr 1fr 2fr ;*/
+   grid-template-rows: repeat(3, 1fr);
+   grid-template-columns: repeat(3,1fr);
+   column-gap: 5px;
+   row-gap:5px;
+   /*gap: 10px 50px;*//*el primer valor corresponde a las filas y el sugundo a las columnas*/
+    
+}
+.primer-item{
+    /*grid-column-start: 1;
+    grid-column-end: 3;*/
+   /* grid-column: 1/3;*/
+    grid-column: 1 / span 3;
+   
+
+    /*grid-row-start: 1;
+    grid-row-end: 3;*/
+    /*grid-row: 1/3;*/
+    grid-row: 1 / span 1;
+
+}
+
+.noveno-item{
+    grid-column: 1 /span 3;
+}
+.segundo-item{
+    grid-row: 2 / span 4;
+}
+
+
+ 
+
