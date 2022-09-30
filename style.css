@@ -1,0 +1,166 @@
+.logo-size{
+    width: 100px;
+}
+a{
+    text-decoration: none;
+}
+.carrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: auto;
+    
+}
+
+.icono-cabezera{
+    width: 100px;
+    height: auto;
+}
+.carrito:hover{
+    background-color: #FFEA11;
+    border-radius: 50%;
+}
+.ban {
+    background-color: #FFEA11;
+    color: rgb(0, 0, 0);
+    position:sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.ban h4 {
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 3px;
+    letter-spacing: 5px;
+}
+/*index*/
+.boton{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 30%;
+    height: 25px;
+    background-color: rgb(23, 23, 24);
+    text-align: center;
+    color: white;
+}
+.boton:hover{
+    background-color: #FFEA11;
+    color: #0a141d;
+    width: 250px;
+    letter-spacing: 6px;
+    transition: 0.5s;
+}
+.btn-search{
+    background-color: hsl(55, 100%, 53% , 0.1);
+}
+.btn-search:hover{
+    background-color: #FFEA11;
+    border: #FFEA11 solid 1px;
+}
+
+/*Nosotros*/
+.texto-nosotros{
+    font-size: larger;
+}
+/*Productos*/
+.acomodar{
+    @media screen {max-width: ;
+        
+    }
+}
+
+
+
+/*Zapas promo*/
+.img-promo{
+    border-radius: 50%;
+    transition: border-radius 1s;
+}
+.img-promo:hover{
+    border-radius: 0%;
+}
+/*Contacto*/
+.formulario{
+    width: 450px;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+
+
+/*footer*/
+footer {
+    position: relative;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.pie-pagina {
+    width: 100%;
+    background-color: #0a141d;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 40px 0px;
+}
+
+.pie-pagina .grupo-1 .box {
+    padding-left: 50px;
+    border-left: solid 1px wheat;
+    color: rgb(69, 105, 136);
+    list-style: none;
+}
+.border-right{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+    
+
+.color-copy{
+    padding-top: 15px;
+    color: rgb(255, 255, 255, 0.5);
+    
+}
+  
+.bg-color-fondo{
+    background-color:#0a141d ;
+}
+h5{
+    color:#5A8F7B ;
+}
+h5:hover{
+    color: #FFEA11;
+}
+.bg-color-fondo-1{
+    background-color: #5A8F7B
+    ;
+
+}
+button{
+    padding: 0%;
+    background-color: aqua;
+}
+.color-producto-a{
+    background-color: rgb(218, 218, 218);
+
+}
+/* paleta de color 
+#5A8F7B
+#FFEA11 Amarillo
+#355764
+*/
+
+

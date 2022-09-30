@@ -248,35 +248,7 @@ a {
 
 
 
-/*footer*/
-footer {
-    position: relative;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
-}
 
-.pie-pagina {
-    width: 100%;
-    background-color: #0a141d;
-}
-
-.pie-pagina .grupo-1 {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 50px;
-    padding: 40px 0px;
-}
-
-.pie-pagina .grupo-1 .box {
-    padding-left: 50px;
-    border-left: solid 1px wheat;
-    color: rgb(69, 105, 136);
-    list-style: none;
-
-}
 
 
 /*Logo axs*/
