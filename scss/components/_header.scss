@@ -1,0 +1,28 @@
+header {
+    background-color: #5A8F7B;
+
+    div {
+        a {
+            text-decoration: none;
+        }
+
+        .carrito {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 65px;
+
+            &:hover {
+                background-color: #FFEA11;
+                border-radius: 50%;
+                transition: 0.5s;
+            }
+
+            .icono-cabezera {
+                width: 100px;
+                height: auto;
+            }
+        }
+
+    }
+}

@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 .logo-size{
     width: 100px;
 }
@@ -34,6 +39,18 @@ a{
     text-align: center;
     padding-bottom: 3px;
     letter-spacing: 5px;
+}
+@media  (max-width:612px)  { 
+    .ban h4{
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    /*footer*/
+    .nombre-logo{
+        display: none;
+        color: #FFEA11;
+    }
+   
 }
 /*index*/
 .boton{
@@ -86,11 +103,7 @@ a{
     border-radius: 0%;
 }
 /*Contacto*/
-.formulario{
-    width: 450px;
-    background: rgba(255, 255, 255, 0.1);
 
-}
 
 
 
@@ -145,8 +158,7 @@ h5:hover{
     color: #FFEA11;
 }
 .bg-color-fondo-1{
-    background-color: #5A8F7B
-    ;
+    background-color: #5A8F7B;
 
 }
 button{

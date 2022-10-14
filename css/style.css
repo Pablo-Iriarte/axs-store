@@ -1,0 +1,132 @@
+header {
+  background-color: #5A8F7B;
+}
+header div a {
+  text-decoration: none;
+}
+header div .carrito {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+}
+header div .carrito:hover {
+  background-color: #FFEA11;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+header div .carrito .icono-cabezera {
+  width: 100px;
+  height: auto;
+}
+
+body {
+  background-color: #0a141d;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.ban {
+  background-color: #FFEA11;
+  color: rgb(0, 0, 0);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.ban h4 {
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 3px;
+  letter-spacing: 5px;
+}
+@media screen and (max-width: 612px) {
+  .ban h4 {
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+}
+
+.col-md-9 .row .card .img-galeria {
+  width: 90%;
+  height: 100%;
+  transition: all 0.5s;
+  margin: auto;
+}
+.col-md-9 .row .card .img-galeria:hover {
+  width: 100%;
+}
+
+.formulario {
+  width: 450px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.boton {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 30%;
+  height: 25px;
+  background-color: rgb(23, 23, 24);
+  text-align: center;
+  color: white;
+}
+.boton:hover {
+  background-color: #FFEA11;
+  color: #0a141d;
+  width: 250px;
+  letter-spacing: 6px;
+  transition: 0.5s;
+}
+
+.btn-search {
+  border-radius: 5px;
+  border: none;
+}
+.btn-search:hover {
+  background-color: #FFEA11;
+  transition: 0.5s;
+}
+
+/*zapas promo*/
+a {
+  text-decoration: none;
+}
+
+section div div div .img-promo {
+  border-radius: 50%;
+  transition: border-radius 1s;
+}
+section div div div .img-promo:hover {
+  border-radius: 2%;
+}
+section div div div div a h5 {
+  color: #5A8F7B;
+}
+section div div div div a h5:hover {
+  color: #FFEA11;
+}
+
+/*footer*/
+footer {
+  position: relative;
+}
+@media screen and (max-width: 612px) {
+  footer nav a .nombre-logo {
+    display: none;
+  }
+}
+footer nav .border-right {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.logo-size {
+  width: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */

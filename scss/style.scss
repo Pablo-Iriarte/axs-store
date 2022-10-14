@@ -1,0 +1,141 @@
+@import "components/header.scss";
+@import "base/estilos-generales";
+
+
+.ban {
+
+    background-color: #FFEA11;
+    color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    h4 {
+        font-weight: 300;
+        text-align: center;
+        padding-bottom: 3px;
+        letter-spacing: 5px;
+
+        @media screen and (max-width:612px) {
+            font-size: 18px;
+            letter-spacing: 3px;
+        }
+    }
+}
+
+.col-md-9 {
+    .row {
+        .card {
+            .img-galeria {
+
+                width: 90%;
+                height: 100%;
+                transition: all 0.5s;
+                margin: auto;
+
+                &:hover {
+                    width: 100%;
+                }
+
+            }
+        }
+    }
+}
+
+.formulario{
+    width: 450px;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+
+.boton {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 30%;
+    height: 25px;
+    background-color: rgb(23, 23, 24);
+    text-align: center;
+    color: white;
+
+    &:hover {
+        background-color: #FFEA11;
+        color: #0a141d;
+        width: 250px;
+        letter-spacing: 6px;
+        transition: 0.5s;
+    }
+}
+
+.btn-search {
+    border-radius: 5px;
+    border: none;
+
+    &:hover {
+        background-color: #FFEA11;
+        transition: 0.5s;
+    }
+}
+
+/*zapas promo*/
+a {
+    text-decoration: none;
+}
+
+section {
+    div {
+        div {
+            div {
+                .img-promo {
+                    border-radius: 50%;
+                    transition: border-radius 1s;
+
+                    &:hover {
+                        border-radius: 2%;
+                    }
+                }
+
+                div {
+                    a {
+                        h5 {
+                            color: #5A8F7B;
+
+                            &:hover {
+                                color: #FFEA11;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*footer*/
+footer {
+    position: relative;
+
+    nav {
+        a {
+            .nombre-logo {
+                @media screen and (max-width:612px) {
+                    display: none;
+                }
+            }
+        }
+
+        .border-right {
+            border-right: 1px solid white;
+            border-left: 1px solid white;
+        }
+    }
+}
+
+
+.logo-size {
+    width: 100px;
+}
